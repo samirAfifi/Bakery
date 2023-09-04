@@ -1,0 +1,293 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Home{
+    background-image: url(../image/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: 100%;
+}
+.layer{
+    background-color: rgba(0, 0, 0, .3);
+    height: 100vh;
+    background-position: center;
+    background-size: 100%;
+}
+a .logo{
+    width: 200px;
+}
+.conponent a{
+    color: #fff;
+}
+.conponent a:hover{
+    color: darkgoldenrod;
+}
+.Home-content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home-content p{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+.Home-content h1{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 75px;
+}
+.btn-learn{
+    background-color: #8e7754;
+    padding: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.btn-learn:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+.btn-contact{
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 13px;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.btn-contact:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+.demo{
+    width: 50px;
+    height: 100px;
+    background-color: #fff;
+    z-index: 99999999;
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.demo i{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    color: dimgray;
+}
+.demo i:hover{
+    color: #000;
+    cursor: pointer;
+}
+/* end section home */
+.about{
+    padding-top: 100px;
+}
+.About-content h2{
+    padding-top: 30px;
+    color: #303030;
+    line-height: 1.38em;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.About-content p{
+    color: #373a3c;
+}
+.about-icon ul{
+    list-style: none;
+    padding-top: 20px;
+}
+.about-icon ul li i{
+    color: #8e7754;
+    font-size: 20px;
+    border: 1px solid #8e7754;
+    padding: 5px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.about-icon ul li span{
+    margin: 10px;
+}
+/* end section about */
+.our-offer{
+    background-color:#f8f8f8 ;
+}
+.offer-content{
+    margin-top: 5dvi;
+}
+.offer-content h2{
+    color: #303030;
+    line-height: 1.38em;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.offer-content p {
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+/* end section our-offer */
+.Baking_header{
+    text-align:center;
+}
+.Baking_header h2{
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    font-size: 30px;
+}
+.Baking_header P {
+    font-size: 17px;
+    color: #888;
+    line-height: 1.86em;
+}
+.card-body h4{
+    margin: 30px 0; 
+    font-size: 22px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+.card-body p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 1.86em;
+}
+/* end section our Baking */
+.contact_sec{
+    background-color:#f8f8f8 ;
+    margin-top: 70px;
+}
+.contact-content h3{
+    padding-top: 20%;
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+.contact-content p  {
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 1.86em;
+}
+.contact-content ul{
+    list-style: none;
+}
+.contact-content ul li {
+    margin: 25px 0px;
+}
+.contact-content ul li i {
+    color: #fff;
+    background: #8e7754;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    line-height: 36px;
+    font-size: 18px;
+    top: 10px;
+}
+.contact-content ul li span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 1.86em;
+}
+.img-contact{
+    margin-bottom: 70px;
+}
+/* end section contact */
+.footer{
+    background-color: #403d38;
+}
+.footer-content{
+    margin: 20% 0%;
+
+}
+.footer-content h4{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+.footer-content p{
+    color: #969696;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+.footer-content ul{
+    list-style:square;
+}
+.footer-content ul li{
+    color: #969696;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.86em;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.end-footer{
+    background-color: #353330;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.end-footer p{
+    font-size: 15px;
+    color: #777;
+    margin-top: 5px;
+    line-height: 1.86em;
+}
+.icon-footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;   
+}
+.end-footer ul li{
+    padding: 0px 5px;
+}
+.end-footer ul li a i{
+    background-color: #484540;
+    color: #8c8a86;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.facebook i:hover{
+    background-color: #0275d8;
+
+}
+.gmail i:hover{
+    background-color: #f65d5d;
+
+}
+.linkin i:hover{
+    background-color: #42b5f3;
+
+}
+.tiwwter i:hover{
+    background-color: #42b5f3;
+
+}
+
+
+
+
+
+
+
